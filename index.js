@@ -27,7 +27,7 @@
                 //even
                 result = result + getConsonant();
             }
-            else if(i%2 == 0 && i == length){
+            if(i%2 == 0 && i == length){
                 getConsonantNoLast();
             }
             else{
