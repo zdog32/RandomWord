@@ -27,11 +27,13 @@
                 //even
                 result = result + getConsonant();
             }
-            if(i%2 == 0 && i == length){
-                getConsonantNoLast();
-                result = result + getConsonantNoLast();
-            }
             else{
+                if(i%2 == 0 && i == length){
+                    getConsonantNoLast();
+                    result = result + getConsonantNoLast();
+                }
+            }
+            if (i%2 == 1){
                 //odd
                 result = result + getVowel();
             }
