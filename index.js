@@ -29,6 +29,7 @@
             }
             if(i%2 == 0 && i == length){
                 getConsonantNoLast();
+                result = result + getConsonantNoLast();
             }
             else{
                 //odd
