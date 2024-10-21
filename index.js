@@ -1,6 +1,6 @@
 (function (global) {
-    var consonants = ['b','c','d','f','g','h','j','k','l','m','n','p','qu','r','s','t','v','w','x','y','z','bl','br','ch','ck','cl','cr','dr','fl','fr','gl','gr','kl','kr','pl','pr','sh','shr','sl','st','tch','th','thr','tr','vl','vr','wr'];
-    var vowels = ['a','e','i','o','u','y','ae','ee','ie','ei','ea','ou','oo','ai','ey','ao','ay','oy','aa','oi'];
+    var consonants = ['b','c','d','f','g','h','j','k','l','m','n','p','q','qu','r','s','t','v','w','x','y','z','bl','br','ch','ck','cl','cr','dr','fl','fr','gl','gr','kl','kr','pl','pr','sch','sh','shr','sl','st','sz','tch','th','thr','tr','ts','vl','vr','wr'];
+    var vowels = ['a','e','i','o','u','y','ae','ee','ie','ei','ea','ou','oo','ai','ey','ao','ay','oy','aa','oi','eu'];
     var wordElement = document.querySelector("#word");
     var numberInput = document.querySelector("#numberBox");
 
